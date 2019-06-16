@@ -31,6 +31,7 @@ namespace RCN.API
         {
             services.AddApplicationInsightsTelemetry("88c3b9b0-f0bc-400c-8e38-a998f54c0fb5");
 
+
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(opt=>{
